@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    background-color: rgba(45, 45, 45, 0.81);
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 960px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.display{
+	display: block;
+}
+/** Navigation theme
+================================================== */
+.booNavigation {
+    position: relative;
+}
+
+.booNavigation li.navItem {
+    background-color: #CC33FF;
+    border-top: 5px solid #9900CC;
+    padding: 5px 20px;
+    float: left;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.booNavigation li.navItem:hover {
+  background-color: #3d8e8e;
+border-color: #3d8e8e;
+    cursor: pointer;
+}
+
+.booNavigation li.navItem > a {
+    color: #fff;
+}
+
+.booNavigation li.navItem .navContent {
+    background-color: #444;
+    left: 0;
+    position: absolute;
+    top: 35px;
+
+    z-index: 999;
+}
+
+.booNavigation .navContent > li {
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 30%;
+}
+
+.booNavigation .navContent ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.booNavigation .navContent ul li a:hover {
+    background-color: #3d8e8e;
+    padding-left: 20px;
+}
+
+.navbar-static-top .navbar-inner {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+}
+.navbar-inner {
+		background: #4292CF;
+		background-image: none;
+		filter: none;
+		border: 0;
+		padding: 0;
+		height: 49px;
+}
+.navbar .brand {
+		color: #000;
+		padding: 16px 30px;
+		margin: 0;
+		font-weight: 900;
+		background: #3473A9;
+		text-shadow: none;
+		float: left;
+}
+.booNavigation li.navItem {
+    background-color: #4292CF;
+    border-top: 5px solid #4292FB;
+}
+a:link {text-decoration: none}
+		ul{
+				width: 250px;
+				height: auto;
+		}
+		.booNavigation .navContent > li {
+		    color: #fff;
+		    float: left;
+		    padding: 10px;
+		    width: 100%;
+		}
+/** Navigation examples
+================================================== */
+.nav-example {
+    clear: left;
+}
